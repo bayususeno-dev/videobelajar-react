@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 253, 243, 1);
+}
+
+.container-1440 {
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-1200 {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.container-1000 {
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.container-384 {
+  max-width: 384px;
+  max-height: 426px;
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.logo-base {
+  background: var(--secondary-orange);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.logo-effect {
+  position: absolute;
+  inset: 0;
+
+  color: rgb(250, 250, 250);
+
+  background: var(--tertiary-red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* ellipse sebagai area yang menampilkan layer kedua */
+  mask-image: radial-gradient(ellipse 40px 10px at 70% 80%,
+      black 80%,
+      transparent 100%);
+
+  -webkit-mask-image: radial-gradient(ellipse 40px 10px at 70% 80%,
+      black 80%,
+      transparent 100%);
+}
+
+.underline {
+  text-decoration-line: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+.dark-secondary-text {
+  color: var(--dark-secondary-text);
+}
+
+.primary-green {
+  color: var(--primary-green);
+}
+
+.dark-primary-text {
+  color: var(--dark-primary-text);
+}
+
+.light-primary-text {
+  color: var(--light-primary-text);
+}
+
+.tertiary-red {
+  color: var(--tertiary-red);
+}
+
+@media (max-width: 768px) {
+
+  .container-1440,
+  .container-1200,
+  .container-1000 {
+    padding-inline: 32px;
+  }
+}

@@ -1,0 +1,81 @@
+@import url("/src/styles/tokens/token.css");
+
+/* BASE BUTTON */
+.button-primary-contained,
+.button-primary-shadow,
+.button-primary-outlined,
+.button-secondary-contained,
+.button-secondary-shadow,
+.button-secondary-outlined,
+.button-tertiary-contained,
+.button-tertiary-shadow,
+.button-tertiary-outlined {
+    display: flex;
+    width: fit-content;
+    min-height: 42px;
+    padding: 0 20px;
+    border-radius: 10px;
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+/* PRIMARY BUTTONS */
+
+.button-primary-contained {
+    background: var(--primary-green);
+    color: var(--light-primary-text);
+}
+
+.button-primary-shadow {
+    background: var(--primary-green-100);
+    color: var(--primary-green);
+}
+
+.button-primary-outlined {
+    background: var(--primary-background);
+    color: var(--primary-green);
+    outline: 1px solid var(--primary-green);
+}
+
+/* SECONDARY BUTTONS */
+
+.button-secondary-contained {
+    background: var(--secondary-orange);
+    color: var(--light-primary-text);
+}
+
+.button-secondary-shadow {
+    background: var(--secondary-orange-100);
+    color: var(--secondary-orange);
+}
+
+.button-secondary-outlined {
+    background: var(--primary-background);
+    color: var(--primary-green);
+    outline: 1px solid var(--secondary-orange);
+}
+
+/* TERTIARY BUTTONS */
+
+.button-tertiary-contained {
+    background: var(--greyscale-400);
+    color: var(--dark-disabled-text);
+}
+
+.button-tertiary-shadow {
+    background: var(--greyscale-300);
+    color: var(--dark-disabled-text);
+}
+
+.button-tertiary-outlined {
+    background: var(--greyscale-200);
+    color: var(--dark-disabled-text);
+    outline: 1px solid var(--greyscale-400);
+}
