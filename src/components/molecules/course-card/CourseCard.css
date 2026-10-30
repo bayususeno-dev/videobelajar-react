@@ -99,8 +99,16 @@
 }
 
 
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 1024px) {
+    .card-videos {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
 
+/* Mobile */
+@media (max-width: 768px) {
     .card-videos {
         grid-template-columns: 1fr;
         gap: 16px;
@@ -114,7 +122,6 @@
     }
 
     .card-thumbnail {
-        width: 100%;
         aspect-ratio: 10 / 4;
     }
 

@@ -112,7 +112,7 @@
     box-sizing: border-box;
 }
 
-@media (max-width=768px) {
+@media (max-width: 768px) {
     .register-card {
         padding: 24px 20px;
     }

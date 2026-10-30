@@ -42,7 +42,7 @@
     text-underline-offset: 10px;
 }
 
-@media (max-width=768px) {
+@media (max-width: 768px) {
     .section-header {
         margin-bottom: 20px;
     }

@@ -31,10 +31,11 @@
     color: var(--light-primary-text);
 }
 
-@media (max-width=768px) {
+@media (max-width: 768px) {
     .header-main {
         width: calc(100% - 48px);
         min-height: 340px;
+        height: auto;
         padding: 40px 24px;
         border-radius: 8px;
     }
@@ -54,5 +55,4 @@
         padding: 0 16px;
         font-size: 14px;
     }
-
 }
