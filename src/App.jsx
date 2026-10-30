@@ -3,31 +3,15 @@ import Navbar from "./components/organisms/navbar/Navbar";
 import Footer from "./components/organisms/footer/Footer";
 import CourseCard from "./components/molecules/course-card/CourseCard";
 import courses from "./data/course";
+import Hero from "./components/organisms/hero/Hero";
 
 function App() {
   return (
     <>
-      {/* <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>videobelajar</title> */}
-
       <Navbar />
       <main>
-        <header className="header-main container-1200">
-          <h1 className="heading-1 container-1000">
-            Revolusi Pembelajaran : Mengubah Cara Belajar di Era Digital melalui
-            Video Interaktif!
-          </h1>
-          <p className="body-medium-medium container-1000">
-            Temukan ilmu baru yang menarik dan mendalam melalui koleksi video
-            pembelajaran berkualitas tinggi. Tidak hanya itu, Anda juga dapat
-            berpartisipasi dalam latihan interaktif yang akan meningkatkan
-            pemahaman Anda.
-          </p>
-          <button className="body-medium-medium button-primary-contained">
-            Temukan Video Course untuk Dipelajari!
-          </button>
-        </header>
+        <Hero />
+
         <section>
           <div className="section-header">
             <h3 className="heading-3">Koleksi Video Pembelajaran Unggulan</h3>
@@ -61,7 +45,6 @@ function App() {
             <CourseCard key={course.id} course={course} />
           ))}
         </section>
-        
 
         <section className="container-1200 newsletter">
           <label htmlFor="email" />
