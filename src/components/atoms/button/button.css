@@ -1,4 +1,4 @@
-@import url("/src/styles/tokens/token.css");
+@import "../../../styles/tokens/token.css";
 
 /* BASE BUTTON */
 .button-primary-contained,

@@ -1,21 +1,19 @@
-@import url('/src/components/atoms/button/button.css');
-@import url('/src/components/atoms/font/font.css');
+@import "./components/atoms/button/button.css";
+@import "./components/atoms/font/font.css";
 
-@import url('/src/styles/tokens/token.css');
+@import "./styles/tokens/token.css";
 
-@import url('/src/components/molecules/course-card/CourseCard.css');
+@import "./components/molecules/course-card/CourseCard.css";
+@import "./components/molecules/form-field/FormField.css";
+@import "./components/molecules/google-button/GoogleButton.css";
 
-@import url('/src/components/organisms/navbar/Navbar.css');
-@import url('/src/components/organisms/footer/Footer.css');
-@import url('/src/components/organisms/hero/Hero.css');
-@import url('/src/components/organisms/course-section/CourseSection.css');
-@import url('/src/components/organisms/newsletter/Newsletter.css');
+@import "./components/organisms/navbar/navbar.css";
+@import "./components/organisms/footer/footer.css";
+@import "./components/organisms/hero/Hero.css";
+@import "./components/organisms/course-section/CourseSection.css";
+@import "./components/organisms/newsletter/Newsletter.css";
+@import "./components/organisms/logincard/LoginCard.css";
+@import "./components/organisms/registercard/RegisterCard.css";
 
-@import url('/src/components/molecules/form-field/FormField.css');
-@import url('/src/components/molecules/google-button/GoogleButton.css');
-@import url('/src/components/organisms/logincard/LoginCard.css');
-
-@import url('/src/components/organisms/registercard/RegisterCard.css');
-
-@import url('/src/pages/login/login.css');
-@import url('/src/pages/register/register.css');
+@import "./pages/login/login.css";
+@import "./pages/register/register.css";
