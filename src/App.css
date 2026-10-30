@@ -8,54 +8,11 @@
 @import url('/src/components/organisms/navbar/Navbar.css');
 @import url('/src/components/organisms/footer/Footer.css');
 @import url('/src/components/organisms/hero/Hero.css');
+@import url('/src/components/organisms/course-section/CourseSection.css');
 
 @import url('/src/pages/login/login.css');
 @import url('/src/pages/register/register.css');
 
-
-/* Section Header */
-.section-header {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.section-header h3 {
-  color: var(--dark-primary-text);
-  margin-bottom: 8px;
-}
-
-.section-header p {
-  color: var(--dark-secondary-text);
-}
-
-/* Section Category */
-.section-category {
-  max-width: 1200px;
-  margin: 0 auto 30px;
-}
-
-.section-category ul {
-  display: flex;
-  gap: 24px;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.section-category a {
-  text-decoration: none;
-  color: var(--dark-secondary-text);
-}
-
-.section-category a:hover {
-  color: var(--tertiary-red);
-  text-decoration: underline;
-  text-decoration-color: var(--tertiary-red);
-  text-decoration-thickness: 5px;
-  text-underline-offset: 10px;
-}
 
 
 
@@ -119,57 +76,6 @@
 }
 
 @media (max-width: 768px) {
-  .header-main {
-    width: calc(100% - 48px);
-    min-height: 340px;
-    padding: 40px 24px;
-    border-radius: 8px;
-  }
-
-  .header-main h1 {
-    font-size: 23px;
-    line-height: 130%;
-  }
-
-  .header-main p {
-    font-size: 14px;
-    line-height: 140%;
-  }
-
-  .header-main .button-primary-contained {
-    min-height: 38px;
-    padding: 0 16px;
-    font-size: 14px;
-  }
-
-  .section-header {
-    margin-bottom: 20px;
-  }
-
-  .section-header h3 {
-    display: flex;
-    font-size: 20px;
-    line-height: 130%;
-    justify-content: center;
-  }
-
-  .section-header-p {
-    display: flex;
-    font-size: 15px;
-    line-height: 130%;
-    justify-content: center;
-  }
-
-  .section-category {
-    display: flex;
-    font-size: 16px;
-    line-height: 130%;
-    justify-content: center;
-  }
-
-  .section-category ul {
-    gap: 12px;
-  }
 
   .newsletter {
     width: calc(100% - 48px);

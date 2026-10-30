@@ -30,3 +30,29 @@
 .header-main p {
     color: var(--light-primary-text);
 }
+
+@media (max-width=768px) {
+    .header-main {
+        width: calc(100% - 48px);
+        min-height: 340px;
+        padding: 40px 24px;
+        border-radius: 8px;
+    }
+
+    .header-main h1 {
+        font-size: 23px;
+        line-height: 130%;
+    }
+
+    .header-main p {
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .header-main .button-primary-contained {
+        min-height: 38px;
+        padding: 0 16px;
+        font-size: 14px;
+    }
+
+}
