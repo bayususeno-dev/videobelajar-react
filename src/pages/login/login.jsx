@@ -1,4 +1,4 @@
-import Navbar from "../../components/organisms/navbar/navbar";
+import Navbar from "../../components/organisms/navbar/Navbar";
 
 function Login() {
   return (
