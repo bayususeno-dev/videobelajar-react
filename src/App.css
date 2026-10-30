@@ -15,5 +15,7 @@
 @import url('/src/components/molecules/google-button/GoogleButton.css');
 @import url('/src/components/organisms/logincard/LoginCard.css');
 
+@import url('/src/components/organisms/registercard/RegisterCard.css');
+
 @import url('/src/pages/login/login.css');
 @import url('/src/pages/register/register.css');
