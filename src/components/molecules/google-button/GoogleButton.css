@@ -1,0 +1,20 @@
+.login-form .button-google {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid var(--greyscale-300);
+    border-radius: 8px;
+    background-color: var(--light-primary-text);
+    cursor: pointer;
+}
+
+.login-form .button-google:hover {
+    background-color: var(--greyscale-50);
+}
+
+.google-icons {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}

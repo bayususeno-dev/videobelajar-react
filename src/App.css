@@ -11,5 +11,9 @@
 @import url('/src/components/organisms/course-section/CourseSection.css');
 @import url('/src/components/organisms/newsletter/Newsletter.css');
 
+@import url('/src/components/molecules/form-field/FormField.css');
+@import url('/src/components/molecules/google-button/GoogleButton.css');
+@import url('/src/components/organisms/logincard/LoginCard.css');
+
 @import url('/src/pages/login/login.css');
 @import url('/src/pages/register/register.css');

@@ -1,0 +1,38 @@
+.login-card {
+    width: 100%;
+    max-width: 590px;
+    padding: 40px;
+    background-color: var(--light-primary-text);
+    border: 1px solid var(--greyscale-300);
+    border-radius: 16px;
+}
+
+.header-login {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.header-login h1 {
+    margin-bottom: 8px;
+}
+
+.login-divider {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 16px;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: var(--greyscale-300);
+}
+
+@media (max-width: 768px) {
+    .login-card {
+        padding: 24px 20px;
+    }
+}

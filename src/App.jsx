@@ -5,7 +5,7 @@ import CourseCard from "./components/molecules/course-card/CourseCard";
 import courses from "./data/course";
 import Hero from "./components/organisms/hero/Hero";
 import CourseSection from "./components/organisms/course-section/CourseSection";
-import Newsletter from "./components/organisms/newsletter/Newsletter"
+import Newsletter from "./components/organisms/newsletter/Newsletter";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <main>
         <Hero />
 
-     <CourseSection/>
+        <CourseSection />
 
         <section className="card-videos container-1440">
           {courses.slice(0, 9).map((course) => (
@@ -22,10 +22,9 @@ function App() {
           ))}
         </section>
 
-        <Newsletter/>
-
+        <Newsletter />
       </main>
-      
+
       <Footer />
     </>
   );
