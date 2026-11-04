@@ -30,7 +30,8 @@ Main project folders:
 - `src/components/molecules/` → Combined components such as form fields and course cards
 - `src/components/organisms/` → Larger UI sections such as navigation bars and forms
 - `src/pages/` → Homepage, login, and registration pages
-- `src/assets/` → Images, icons, and other assets
+- `src/data/` → Local data card
+- `public/assets/` → Images, icons, and other assets
 - `src/styles/` → CSS files
 - `src/App.jsx` → Main application component
 - `src/main.jsx` → Application entry point
