@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./Footer.css";
+import "./footer.css";
 
 function Footer() {
   const [openSection, setOpenSection] = useState(null);
