@@ -8,7 +8,7 @@
 @import "./components/molecules/google-button/GoogleButton.css";
 
 @import "./components/organisms/navbar/navbar.css";
-@import "./components/organisms/footer/footer.css";
+@import "./components/organisms/footer/Footer.css";
 @import "./components/organisms/hero/Hero.css";
 @import "./components/organisms/course-section/CourseSection.css";
 @import "./components/organisms/newsletter/Newsletter.css";
